@@ -1,0 +1,9 @@
+[versions]
+minestom = "34558e75ee"
+shadow = "8.1.1"
+
+[libraries]
+minestom = { group = "dev.hollowcube", name = "minestom-ce", version.ref = "minestom" }
+
+[plugins]
+shadow = { id = "com.github.johnrengelman.shadow", version.ref = "shadow" }
